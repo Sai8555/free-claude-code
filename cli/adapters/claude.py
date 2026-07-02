@@ -10,7 +10,7 @@ from loguru import logger
 
 from .base import CliInvocation, CliParseState, CliTaskRequest
 
-_AUTO_COMPACT_WINDOW = "190000"
+_AUTO_COMPACT_WINDOW = "25000"
 _NO_AUTH_SENTINEL = "fcc-no-auth"
 
 
